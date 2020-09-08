@@ -19,7 +19,7 @@ pip3 freeze > requirements.txt
 ```
 
 
-- [ ] 1. String Transformation
+- [x] 1. String Transformation
 
 ```python
 app lowercase "I aM CrAzY TeXT"
@@ -32,7 +32,7 @@ app capitalize "I aM CrAzY TeXT"
 # Output "I Am Crazy Text"
 ```
 
-- [ ] 2. Arithmetic
+- [x] 2. Arithmetic
 
 ```python
 app add 1 4 5 2 3
