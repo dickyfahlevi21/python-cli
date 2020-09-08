@@ -1,0 +1,2 @@
+click==7.1.2
+-e git+https://github.com/dickyfahlevi21/python-cli.git@a844b9ae5f127e55a6aedfabab78e94d53121d36#egg=main

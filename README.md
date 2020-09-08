@@ -18,6 +18,10 @@ Generate requirements.txt
 pip3 freeze > requirements.txt
 ```
 
+setelah membuat file __init__.py dan main.py
+```bash
+pip3 install --editable .
+```
 
 - [x] 1. String Transformation
 
@@ -48,7 +52,7 @@ app divide 100 5 2
 # Output 10
 ```
 
-- [ ] 3. Statistic
+- [x] 3. Statistic
 
 ```python
 app mean 90 80 77 45 32 45
@@ -60,7 +64,7 @@ app mode 3 5 8 0 9 8 3 0 8
 app fmean 100 53 28 90 130
 ```
 
-- [ ] 4. Palindrome
+- [x] 4. Palindrome
 
 command
 ```python
@@ -88,7 +92,7 @@ String: "Aku suka rajawali, bapak. Apabila wajar, aku suka."
 Is palindrome? Yes
 ```
 
-- [ ] 5. Obfuscator
+- [x] 5. Obfuscator
 
 command
 ```python
@@ -125,7 +129,7 @@ app random --numbers=false --lowercase --length=20
 # Output ljmuoyopwxcvhycowqqi
 ```
 
-- [ ] 7. Get IP Address in private network
+- [x] 7. Get IP Address in private network
 
 command
 ```python
@@ -135,7 +139,7 @@ Output
 ```python
 192.168.100.11
 ```
-- [ ] 8. Get External IP Address
+- [x] 8. Get External IP Address
 
 command
 ```python
